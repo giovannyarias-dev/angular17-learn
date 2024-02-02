@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  template: `<p>heavy-loaders-fast works!</p>`,
+  template: `<p>Loader Fast</p>`,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeavyLoadersFastComponent { }

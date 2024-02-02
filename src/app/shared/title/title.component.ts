@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  template: `<p>title works!</p>`,
+  template: `<p>Title</p>`,
   styles: `
     :host {
       display: block;

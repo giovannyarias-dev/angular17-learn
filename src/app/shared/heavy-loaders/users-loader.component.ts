@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
     standalone: true,
     selector: 'app-users-loader',
     template: `
-        <h1>My name is </h1>
+        <h1>User loader</h1>
     `
 })
 
