@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  template: `<p>defer-options works!</p>`,
+  template: `<p>Defer options</p>`,
   styles: `
     :host {
       display: block;

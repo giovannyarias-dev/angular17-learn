@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  template: `<p>control-flow works!</p>`,
+  template: `<p>Control flow</p>`,
   styles: `
     :host {
       display: block;

@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  template: `<p>users works!</p>`,
+  template: `<p>Usuarios</p>`,
   styles: `
     :host {
       display: block;

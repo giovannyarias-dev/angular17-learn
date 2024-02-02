@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  template: `<p>view-transition works!</p>`,
+  template: `<p>View transition</p>`,
   styles: `
     :host {
       display: block;

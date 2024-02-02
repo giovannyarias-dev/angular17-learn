@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  template: `<p>defer-views works!</p>`,
+  template: `<p>Defer views</p>`,
   styles: `
     :host {
       display: block;
