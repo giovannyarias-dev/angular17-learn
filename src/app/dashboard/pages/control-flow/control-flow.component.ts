@@ -1,5 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
+
+type Grade = 'A' | 'B' | 'F' ;
 
 @Component({
   selector: 'app-control-flow',
@@ -7,7 +9,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  template: `<p>Control flow</p>`,
+  templateUrl: './control-flow.component.html',
   styles: `
     :host {
       display: block;
@@ -15,4 +17,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export default class ControlFlowComponent { }
+export default class ControlFlowComponent {
+
+  public showContent = signal(false);
+  public grade = signal<Grade>('A');
+
+  public toggleContent() {
+    this.showContent.update(value => !value);
+  } 
+
+}
